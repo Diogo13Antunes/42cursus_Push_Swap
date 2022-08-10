@@ -6,7 +6,7 @@
 /*   By: dcandeia <dcandeia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/15 14:36:58 by dcandeia          #+#    #+#             */
-/*   Updated: 2022/02/24 17:36:21 by dcandeia         ###   ########.fr       */
+/*   Updated: 2022/02/24 15:52:38 by dcandeia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,8 +91,8 @@ int	check_args_rules(int argc, char **argv)
 		return (-1);
 	else if (check_multi_numbers(argc, argv) == -1)
 		return (-1);
-	// else if (checker_sinal(argc, argv) == -1)
-	// 	return (-1);
+	else if (checker_sinal(argc, argv) == -1)
+		return (-1);
 	return (0);
 }
 

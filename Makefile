@@ -6,7 +6,7 @@
 #    By: dcandeia <dcandeia@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/15 12:53:11 by dcandeia          #+#    #+#              #
-#    Updated: 2022/02/24 16:37:04 by dcandeia         ###   ########.fr        #
+#    Updated: 2022/02/24 16:00:52 by dcandeia         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra -g
 RM = rm -f
 
-$(VERBOSE).SILENT:
+# $(VERBOSE).SILENT:
 
 HEADER = push_swap.h
 
@@ -72,7 +72,6 @@ clean:
 	make clean -C $(LIBFT_PATH)
 	make clean -C $(FT_PRINTF_PATH)
 	rm -rf $(OBJ_PATH)
-	clear
 	echo "\033[33mall $(NAME).o files are removed\033[0m"
 
 fclean: clean

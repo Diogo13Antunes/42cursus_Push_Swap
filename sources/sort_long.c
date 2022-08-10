@@ -6,7 +6,7 @@
 /*   By: dcandeia <dcandeia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/09 14:15:00 by dcandeia          #+#    #+#             */
-/*   Updated: 2022/03/09 10:48:05 by dcandeia         ###   ########.fr       */
+/*   Updated: 2022/02/17 11:08:02 by dcandeia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ void	push_to_b(int nb_ch, t_list **stack_a, t_list **stack_b, t_chunk *cks)
 		size_stk = (cks[indexs.x_1].index_max - cks[indexs.x_1].index_min) + 1;
 		size_stk += (cks[indexs.x_2].index_max - cks[indexs.x_2].index_min) + 1;
 		while (ii < size_stk)
-		{
+		{	
 			check_numbr(stack_a, stack_b, cks, indexs);
 			ii++;
 		}
