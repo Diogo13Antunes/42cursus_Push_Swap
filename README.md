@@ -1,34 +1,53 @@
-<h1 align="center">
-	PUSH_SWAP
-</h1>
 
-<p align="center">
-	<b><i>This project organize numbers!</i></b>
-</p>
+# Push Swap
 
-<p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Diogo13Antunes/42Cursus_Printf?color=blueviolet" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/Diogo13Antunes/42Cursus_Printf?color=blueviolet" />
-	<img alt="Code language count" src="https://img.shields.io/github/languages/count/Diogo13Antunes/42Cursus_Printf?color=blue" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Diogo13Antunes/42Cursus_Printf?color=blue" />
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Diogo13Antunes/42Cursus_Printf?color=brightgreen" />
-</p>
+The **Push Swap** project challenges developers to implement an efficient sorting algorithm using a limited set of operations and constraints. The task involves a set of integer values, two stacks, and a defined set of instructions to manipulate these stacks. The goal is to create a program, `push_swap`, in C that outputs the smallest sequence of instructions required to sort the integers provided as arguments.
 
-## 🗣️ About
+Sorting algorithms are a fundamental part of programming, and mastering them is crucial for understanding algorithmic complexity and efficiency. This project encourages rigor, precision, and a deeper understanding of complexity and algorithm design by aiming to sort data as efficiently as possible. Each integer configuration presents a unique challenge, requiring the developer to consider the optimal sorting strategy.
 
-> _This project receive a list of numbers and organize them in ascendent order!_
+See the [subject](./subject.pdf) for more information.
 
-For detailed information, refer to the [**subject of this project**](https://github.com/Diogo13Antunes/42cursus_Push_Swap/blob/main/subject.pdf).
+## Table of Contents (TOC)
 
-## 🛠️ Download
+- [Requirements](#requirements)
+- [How to use it?](#how-to-use-it)
 
-### Requirements
+## Requirements
 
-The library is written in C language and thus needs the **`gcc` compiler** and some standard **C libraries** to run.
+> To run this functio you need a C compiler and the standard C libraries.
 
-### Instructions
+## How to use it?
+
+1. Clone the repository.
 
 ```shell
-git clone https://github.com/Diogo13Antunes/42cursus_Push_Swap.git
+git clone git@github.com:Diogo13Antunes/42cursus_Push_Swap.git
 ```
-OR Download by clicking [**HERE**](https://github.com/Diogo13Antunes/42cursus_Push_Swap/archive/refs/heads/main.zip)
+
+2. Go to the repository.
+
+```shell
+cd 42Cursus_Mini_Talk/minitalk
+```
+
+3. Compile the project.
+
+```shell
+make
+```
+
+4. Execute the following command to sort the given numbers.
+
+```shell
+./push_swap [list of numbers]
+```
+
+> **Example:** ./push_swap 2 1 3 6 5 8
+
+> **NOTE:** The numbers must be seperate by a space.
+
+6. Cleaning
+
+```shell
+make fclean
+```
