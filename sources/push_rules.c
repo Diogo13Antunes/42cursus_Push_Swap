@@ -80,9 +80,6 @@ int	check_int_max(int argc, char **argv)
 
 int	check_args_rules(int argc, char **argv)
 {
-	int	i;
-
-	i = 1;
 	if (argc == 1)
 		return (-1);
 	else if (check_digits(argc, argv) == -1)

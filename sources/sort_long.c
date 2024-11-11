@@ -38,10 +38,8 @@ void	push_to_b(int nb_ch, t_list **stack_a, t_list **stack_b, t_chunk *cks)
 	int		ii;
 	int		size_stk;
 	t_index	indexs;
-	int		counter;
 
 	i = 0;
-	counter = 0;
 	while (i < (nb_ch / 2))
 	{
 		ii = 0;
@@ -75,10 +73,8 @@ void	sort_long(t_list **stack_a, t_list **stack_b, int size)
 {
 	t_chunk	ch_list[50];
 	int		n_chuncks;
-	int		i;
 	int		*arr;
 
-	i = 0;
 	n_chuncks = 0;
 	arr = array_sort(*stack_a, size - 1);
 	n_chuncks = choose_chunk(arr, size, ch_list);
