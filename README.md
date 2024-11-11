@@ -3,8 +3,6 @@
 
 The **Push Swap** project challenges developers to implement an efficient sorting algorithm using a limited set of operations and constraints. The task involves a set of integer values, two stacks, and a defined set of instructions to manipulate these stacks. The goal is to create a program, `push_swap`, in C that outputs the smallest sequence of instructions required to sort the integers provided as arguments.
 
-Sorting algorithms are a fundamental part of programming, and mastering them is crucial for understanding algorithmic complexity and efficiency. This project encourages rigor, precision, and a deeper understanding of complexity and algorithm design by aiming to sort data as efficiently as possible. Each integer configuration presents a unique challenge, requiring the developer to consider the optimal sorting strategy.
-
 See the [subject](./subject.pdf) for more information.
 
 ## Table of Contents (TOC)
