@@ -26,7 +26,7 @@ git clone git@github.com:Diogo13Antunes/42cursus_Push_Swap.git
 2. Go to the repository.
 
 ```shell
-cd 42Cursus_Mini_Talk/minitalk
+cd 42cursus_Push_Swap
 ```
 
 3. Compile the project.
