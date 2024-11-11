@@ -11,6 +11,7 @@ See the [subject](./subject.pdf) for more information.
 
 - [Requirements](#requirements)
 - [How to use it?](#how-to-use-it)
+- [Visualization](#visualization)
 
 ## Requirements
 
@@ -51,3 +52,7 @@ make
 ```shell
 make fclean
 ```
+
+## Visualization
+
+[vizualization](https://github.com/user-attachments/assets/267b9eb0-a814-4d8c-ad4c-e37827d0aec9)
